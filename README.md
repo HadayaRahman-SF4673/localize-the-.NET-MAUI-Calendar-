@@ -1,4 +1,5 @@
-# How to localize the .NET MAUI Calendar (SfCalendar)
+# How to Localize the .NET MAUI Calendar (SfCalendar)
+
 This repository contains a sample to localize the [Syncfusion .NET MAUI Calendar](https://help.syncfusion.com/maui/calendar/getting-started) control.
 
 Please refer the KB through this link.
