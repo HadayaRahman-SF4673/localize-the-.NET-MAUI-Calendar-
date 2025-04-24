@@ -7,7 +7,10 @@ public partial class App : Application
 	{
 		InitializeComponent();
         CultureInfo.CurrentUICulture = CultureInfo.CreateSpecificCulture("ja-JP");
-
-        MainPage = new AppShell();
 	}
+
+    protected override Window CreateWindow(IActivationState activationState)
+    {
+        return new Window(new AppShell());
+    }
 }
